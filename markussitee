@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus - Consultant Immobilier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #1e2a47;
+        }
+        header {
+            background-color: #003366;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        header img {
+            max-width: 120px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .services, .values {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service, .value {
+            text-align: center;
+            width: 30%;
+        }
+        footer {
+            background-color: #003366;
+            padding: 20px;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://www.example.com/logo_markus.png" alt="Logo Markus">
+    <h1>Markus - Consultant Immobilier</h1>
+</header>
+
+<section id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Markus est une société de conseil en immobilier, offrant des solutions personnalisées pour répondre à vos besoins spécifiques. Nous optimisons professionnalisme et engagement envers l'excellence.</p>
+</section>
+
+<section id="services">
+    <h2>Nos services</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Consultation stratégique</h3>
+            <p>Assistance dans le développement et l'implémentation de stratégies adaptées à vos besoins.</p>
+        </div>
+        <div class="service">
+            <h3>Gestion de projet</h3>
+            <p>Gestion efficace des projets immobiliers, de la conception à la réalisation.</p>
+        </div>
+        <div class="service">
+            <h3>Conseil en organisation</h3>
+            <p>Optimisation de la gestion de votre organisation immobilière pour plus de performance.</p>
+        </div>
+    </div>
+</section>
+
+<section id="values">
+    <h2>Nos valeurs</h2>
+    <div class="values">
+        <div class="value">
+            <h3>Intégrité</h3>
+            <p>Nous privilégions l'intégrité dans toutes nos relations professionnelles.</p>
+        </div>
+        <div class="value">
+            <h3>Transparence</h3>
+            <p>Nos conseils sont clairs et transparents pour vous aider à prendre les meilleures décisions.</p>
+        </div>
+        <div class="value">
+            <h3>Confiance</h3>
+            <p>Nous croyons en la confiance mutuelle pour bâtir des partenariats durables.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Toute question ? Contactez-nous pour discuter de vos besoins.</p>
+    <p>Email : <a href="mailto:info@markus.com">info@markus.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Markus Immobilier. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
